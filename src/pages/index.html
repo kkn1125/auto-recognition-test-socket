@@ -1,0 +1,20 @@
+<h1>Test1</h1>
+<p>wow</p>
+<div>
+  <h2><%= name %></h2>
+  <form id="oo">
+    test
+    <button>insert</button>
+  </form>
+</div>
+<script>
+  const oo = document.querySelector("#oo");
+  console.log(oo);
+  oo.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    ws.send("hi");
+
+    return false;
+  });
+</script>

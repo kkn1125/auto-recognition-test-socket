@@ -1,0 +1,26 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/ndex.js",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "ejs": "^3.1.9",
+    "protobufjs": "^7.2.3",
+    "uuid": "^9.0.0",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.24.0"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/uuid": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  }
+}
